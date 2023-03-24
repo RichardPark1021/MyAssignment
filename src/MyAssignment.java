@@ -10,6 +10,38 @@ public class MyAssignment {
     public static void main(String[] args) {
         MyAssignment assignment = new MyAssignment();
 
+        //output for reverseDoubleChar()
+        System.out.println(assignment.reverseDoubleChar("Hello World"));
+
+        //output for sumDigits()
+        System.out.println(assignment.sumDigits(126));
+
+        //output for birthdayName()
+        System.out.println(assignment.birthdayName("Susan"));
+
+        //output for missingFront()
+        System.out.println(assignment.missingFront("Halloween"));
+
+        //output for swapEnds()
+        System.out.println(assignment.swapEnds("Hello"));
+
+        //output for everyOther()
+        System.out.println(assignment.everyOther("Programming"));
+
+        //output for nonStart()
+        System.out.println(assignment.nonStart("Hello", "World"));
+
+        //output for fibonacci()
+        System.out.println(assignment.fibonacci(10));
+
+        //output for luckySum()
+        System.out.println(assignment.luckySum(10, 9, 13));
+
+        //output for hasPalindrome()
+        System.out.println(assignment.hasPalindrome("level"));
+
+        //output for powerOfTwo()
+        System.out.println(assignment.powerOfTwo(2));
     }
 
     //Given a string, return a string where for every char is the original, there are two chars.
